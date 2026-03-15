@@ -42,19 +42,6 @@ numpy
 scipy
 matplotlib
 
-## Example
-
-```python
-import numpy as np
-from blocking import blocking_method
-
-data = np.loadtxt("timeseries.dat")
-
-var_corrected = blocking_method(data)
-
-print("Corrected variance:", var_corrected)
-
-```
 ## Reference
 
 Jonsson, M. (2018).  
